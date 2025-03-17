@@ -187,7 +187,7 @@ v = game.ReplicatedStorage.Styles.Brawler["VisualName"]
 else
 v = Instance.new("StringValue", game.ReplicatedStorage.Styles.Brawler)
 end
-v.Value = 'Dragon'
+v.Value = 'Domino'
 v.Name = "VisualName"
 if game.ReplicatedStorage.Styles.Brawler:FindFirstChild("Throw") then
 v = game.ReplicatedStorage.Styles.Brawler["Throw"]
